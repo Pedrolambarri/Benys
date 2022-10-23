@@ -1,0 +1,189 @@
+// This is where you can import other stylesheets or write your scss code
+
+$fontFam: "Love Ya Like A Sister", cursive;
+$primary-color: #7a44fe;
+
+header {
+  background-image: url(/src/images/lidye-1Shk_PkNkNw-unsplash.jpg);
+  background-size: cover;
+  background-position: 100% 110%;
+  height: 50rem;
+  background-repeat: no-repeat;
+  position: relative;
+
+  nav {
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+  }
+
+  #banner {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+
+    h1 {
+      font-size: clamp(4rem, 1rem + 10vw, 10rem);
+      font-family: $fontFam;
+    }
+
+    p {
+      font-size: 1.8rem;
+    }
+
+    button {
+      border: none;
+      color: white;
+      background-color: $primary-color;
+      padding: .5rem;
+      font-size: 1.3rem;
+    }
+
+  }
+
+
+  .b-icon {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    color: $primary-color;
+    font-family: 'Love Ya Like A Sister', cursive;
+    ;
+
+    h3 {
+      font-size: 1.8rem;
+
+    }
+  }
+
+
+  .nav-link {
+    color: $primary-color;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+
+  ul {
+    width: 100%;
+  }
+
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+}
+
+#about-us {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 4rem;
+
+  h2 {
+    font-size: 6rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+  }
+
+  .card {
+    border: none;
+    align-items: center;
+    width: 350px;
+
+    img {
+      border: 1px solid black;
+      border-radius: 50%;
+      padding: 20px;
+    }
+  }
+
+}
+
+#team {
+  background: $primary-color ;
+  padding-bottom: 5rem;
+
+  .card {
+    border: 1px solid;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-family: $fontFam;
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    padding: 6rem;
+  }
+
+
+  .c-1 {
+    height: 450px;
+
+  }
+
+  .c-2 {
+    height: 600px;
+  }
+
+  .c-3 {
+    height: 750px;
+  }
+
+  .c-4 {
+    height: 550px;
+  }
+
+  .btn {
+    background-color: white;
+    color: $primary-color;
+    border-radius: 0;
+    border: 1px solid $primary-color;
+    padding: 5px;
+  }
+
+  .fa-solid {
+    margin-left: 5px;
+  }
+}
+
+#contact {
+  h2 {
+    font-family: $fontFam;
+    text-align: center;
+    font-size: 4rem;
+    padding: 3rem;
+  }
+
+  form {
+    width: 25%;
+    margin: auto;
+    padding-bottom: 5rem;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: gray;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  p {
+    padding-right: 5rem;
+    margin-top: 1rem;
+  }
+}
+
+
+#contact {
+  form {
+    width: 25rem;
+    padding: 1rem;
+  }
+}
